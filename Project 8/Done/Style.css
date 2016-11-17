@@ -1,0 +1,42 @@
+body {
+    background-size: 10%;
+    background-repeat: no-repeat;
+}
+div > img {
+    height: 150px;
+}
+nav {
+    background-color: black;
+}
+li {
+    display:inline;
+    float:right;
+    padding-left:90px;
+    padding-right: 10px;
+    text-align: center;
+    color: white;
+}
+h1 {
+    text-align: center;
+    vertical-align:text-bottom;
+    color:teal;
+    font-size: 3em;
+}
+.fixed-bar{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 9999;
+    width: 100%;
+}
+span > img{
+    font-weight: 800;
+    font-size: 2em;
+    display: block;
+    
+}
+
+span{
+    text-align: center;
+}
+

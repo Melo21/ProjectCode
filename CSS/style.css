@@ -1,0 +1,157 @@
+body {
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: 'Slackey', cursive !important;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+li {
+    display:inline-block;
+    color: #909090;
+    text-align: center;
+    padding: 5px; 
+    margin-right:10px;
+    padding-right:5px;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover{
+     filter: grayscale(95%) blur(1.5px);
+}
+
+ul {
+    float:right;
+    padding-left:90px;
+    padding-right: 20px;
+    padding:0px;
+    margin:0px;
+}
+
+h1 {
+    color:#000000;
+    font-size: 50px;
+    position: absolute;
+    top:100px;
+    left:40%;
+    z-index: 1;
+}
+
+.fixed-bar{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 9999;
+    width: 100%;
+    background-color: #000000;
+    height:30px;
+}
+
+/*span{
+    text-align: center;
+    display: block;
+    font-size: 2em;
+}
+*/
+.bg-overlay {
+  background:rgba(0,0,0, 0.2);
+  height: 670px;
+    max-width: 100%;
+    position: relative;
+}
+
+h2 {
+    font-size: 30px;
+    top:0px;
+    position: absolute;
+    margin-bottom: 0px;
+}
+
+.snippet {
+    color:#000000;
+    text-align: left;
+    padding:0px;
+    margin-left: 10px;
+    margin-top:20px;
+}
+
+h3 {
+    color:white !important;
+    position: absolute;
+    top:400px;
+    left:50%;
+    font-size: 30px;
+}
+
+.icons {
+    width: 100%;
+    left:50%;
+    position: absolute;
+    top:500px;
+    
+} 
+/*
+.fa {
+    display:inline-block;
+    vertical-align:middle;
+    color: #444;
+    font-size: 2.2em;
+    height: 52px;
+    line-height: 44px;
+    width: 52px;
+    margin:20px 5px;
+}
+
+.btn { 
+    position: absolute; 
+   top: -500px; 
+   left: 0; 
+   width: 100%; 
+}
+*/
+.submit {
+    position:absolute;
+    top: 300px;
+    left:50%;
+   width: 20%; 
+   z-index: 1;
+}
+
+.btn-secondary {
+    top:350px;
+    display: block;
+    padding: 10px;
+}
+.gallery-images{
+    display:inline-block; 
+    margin:10px;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+
+.gallerypics:hover {
+    filter: grayscale(0%);
+}
+
+.gallerypics {
+    height:200px; 
+    width:300px; 
+    filter: grayscale(100%);
+}
+
+.gallery {
+    background-color:#ffffff; 
+    display: inline-block;
+    margin: auto;    
+}
+
+.snooze {
+    color:#000000;
+    font-size: 30px;
+     top:1375px;
+     position: absolute;
+     padding-top:30px;
+}
